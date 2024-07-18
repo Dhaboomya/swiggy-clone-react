@@ -1,0 +1,79 @@
+.header{
+  padding :10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border:1px solid;
+  border-color: rgb(188, 191, 193); */
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(151, 152, 154);
+  box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+  /* border-radius: 1%; */
+  margin-top: 10px;
+ }
+ nav{
+   display:flex;
+   align-items: center;
+   gap:30px;
+ }
+ 
+ /*** restaurant */
+ .restaurant-container{
+    /* overflow: auto;
+   white-space: nowrap; */
+   margin-top: 10px;
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   margin-left: 7%;
+ }
+ 
+ .restaurant-card{
+   /* overflow: auto;
+   white-space: nowrap; */
+   width: 100px;
+   padding: 5px;
+   /* background-color: rgb(241, 241, 241); */
+   box-shadow: 0 15px 40px -20px rgba(0, 0, 0, 0.15);
+   border-radius: 4%;
+   /* border: 1px solid; */
+   /*overflow: auto;*/
+ }
+  .restaurant-card img{
+   /* overflow: auto; */
+   /* white-space: nowrap; */
+   width: 10%;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 4%;
+  }
+  #search{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(184, 186, 188);
+    margin-left: 27%;
+  }
+  #search1{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(207, 208, 209);
+    
+  }
+  #search2{
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(130, 192, 69);
+    
+  }
+  .category-container{
+    margin: 10px;
+    padding: 15px;
+    width: 700px;
+    text-align:justify;
+    background-color: rgb(250, 189, 232);
+    margin-left: 20%;
+    
+  }
